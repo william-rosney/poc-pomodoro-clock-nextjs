@@ -1,0 +1,51 @@
+
+.btn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color:black;
+    border: 1px solid black;
+    border-radius: 500px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: "Space Grotesk",sans-serif;
+    margin: 0.5rem;
+}
+
+.btn_primary {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-family: "Space Grotesk",sans-serif;
+    min-width: 130px;
+    min-height: 42px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+.btn_secondary {
+    background-color: white;
+    color: black;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    font-family: "Space Grotesk",sans-serif;
+    min-width: 120px;
+    min-height: 35px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+.btn_secondary:hover {
+    color: white;
+    background-color: black;
+}
+
+.btn_selected {
+    background-color: black;
+    color: white;
+}
+
