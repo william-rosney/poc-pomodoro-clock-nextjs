@@ -2,11 +2,11 @@ import * as React from 'react';
 import styles from './Button.module.css';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-	text: string;
+	children? : React.ReactNode
 }
 
-function Button({ text, ...rest }: ButtonProps) {
-	return <button {...rest}>{text}</button>;
+function Button({children, ...rest }: ButtonProps) {
+	return <button {...rest}>{children}</button>;
 }
 
 export default Button;
